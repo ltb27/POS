@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "Fz5JXv0mpXJGfIY00/rhwlks9dBzq0Hi7Eeqn2KhWTU2YIkxA04q85IJPeZKJ+gR24Wz42c5sIhYbkedxqk4aA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\letuanbao\\RiderProjects\\Pos\\src\\Common\\pos.Common.Extensions\\pos.Common.Extensions.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\letuanbao\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.20\\microsoft.netcore.app.ref.6.0.20.nupkg.sha512",
+    "C:\\Users\\letuanbao\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.20\\microsoft.windowsdesktop.app.ref.6.0.20.nupkg.sha512",
+    "C:\\Users\\letuanbao\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.20\\microsoft.aspnetcore.app.ref.6.0.20.nupkg.sha512"
+  ],
+  "logs": []
+}

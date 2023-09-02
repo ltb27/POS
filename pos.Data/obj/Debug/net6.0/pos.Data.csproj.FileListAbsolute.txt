@@ -1,0 +1,12 @@
+C:\Users\letuanbao\RiderProjects\Pos\pos.Data\bin\Debug\net6.0\pos.Data.deps.json
+C:\Users\letuanbao\RiderProjects\Pos\pos.Data\bin\Debug\net6.0\pos.Data.dll
+C:\Users\letuanbao\RiderProjects\Pos\pos.Data\bin\Debug\net6.0\pos.Data.pdb
+C:\Users\letuanbao\RiderProjects\Pos\pos.Data\obj\Debug\net6.0\pos.Data.csproj.AssemblyReference.cache
+C:\Users\letuanbao\RiderProjects\Pos\pos.Data\obj\Debug\net6.0\pos.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\letuanbao\RiderProjects\Pos\pos.Data\obj\Debug\net6.0\pos.Data.AssemblyInfoInputs.cache
+C:\Users\letuanbao\RiderProjects\Pos\pos.Data\obj\Debug\net6.0\pos.Data.AssemblyInfo.cs
+C:\Users\letuanbao\RiderProjects\Pos\pos.Data\obj\Debug\net6.0\pos.Data.csproj.CoreCompileInputs.cache
+C:\Users\letuanbao\RiderProjects\Pos\pos.Data\obj\Debug\net6.0\pos.Data.dll
+C:\Users\letuanbao\RiderProjects\Pos\pos.Data\obj\Debug\net6.0\refint\pos.Data.dll
+C:\Users\letuanbao\RiderProjects\Pos\pos.Data\obj\Debug\net6.0\pos.Data.pdb
+C:\Users\letuanbao\RiderProjects\Pos\pos.Data\obj\Debug\net6.0\ref\pos.Data.dll
