@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using pos.Data;
+using pos.Core;
+using pos.Infrastructure.Data;
 
 namespace pos.Products.Services;
 

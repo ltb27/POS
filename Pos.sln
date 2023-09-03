@@ -2,7 +2,7 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pos.Web", "pos.Web\pos.Web.csproj", "{5D94E600-0A9E-4E80-B3ED-7179CD6DE7F3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pos.Data", "pos.Data\pos.Data.csproj", "{45B6507F-EA30-4A54-9522-0A0670264907}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pos.Core", "pos.Core\pos.Core.csproj", "{45B6507F-EA30-4A54-9522-0A0670264907}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domains", "Domains", "{2FDF818B-E3B5-4DC9-BE0B-C17A538C4273}"
 EndProject
@@ -17,6 +17,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pos.Common.Extensions", "Common\pos.Common.Extensions\pos.Common.Extensions.csproj", "{9F9176A3-8282-475A-9D3E-0995584C6922}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pos.Common.Extensions.Files", "Common\Files\pos.Common.Extensions.Files\pos.Common.Extensions.Files.csproj", "{C675E4B2-8E18-4280-9095-AA90AADAD636}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pos.Infrastructure", "pos.Infrastructure\pos.Infrastructure.csproj", "{6B0061DC-03EB-4C5A-80D1-82E029CFE7D8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -48,6 +50,10 @@ Global
 		{C675E4B2-8E18-4280-9095-AA90AADAD636}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C675E4B2-8E18-4280-9095-AA90AADAD636}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C675E4B2-8E18-4280-9095-AA90AADAD636}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B0061DC-03EB-4C5A-80D1-82E029CFE7D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B0061DC-03EB-4C5A-80D1-82E029CFE7D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B0061DC-03EB-4C5A-80D1-82E029CFE7D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B0061DC-03EB-4C5A-80D1-82E029CFE7D8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{D766554C-A12E-4E08-B477-B32F0401A2E8} = {2FDF818B-E3B5-4DC9-BE0B-C17A538C4273}

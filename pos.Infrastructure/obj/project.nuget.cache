@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "t2Q1pWjIs3LpUvDs059aD9cgr9JiP0UEpYmSlc5om+ENsBSJBg9Mj61nz/gER9z9BfDZUPsTIxy6ZAcgXG1Knw==",
+  "dgSpecHash": "9Cq9IKbYUC+FEQNDnn9wgKf8gB8tLZsMDEIfgCe5h4dqDKHC+Y0NVhgYC7SIVsnbp5maGpXtNY39ESUl9WwGaA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\letuanbao\\RiderProjects\\Pos\\src\\Domains\\Products\\pos.Products\\pos.Products.csproj",
+  "projectFilePath": "C:\\Users\\letuanbao\\RiderProjects\\Pos\\src\\pos.Infrastructure\\pos.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\letuanbao\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",

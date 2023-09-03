@@ -750,22 +750,6 @@
         "runtime": {
           "bin/placeholder/pos.Core.dll": {}
         }
-      },
-      "pos.Infrastructure/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "dependencies": {
-          "Microsoft.EntityFrameworkCore": "6.0.21",
-          "Microsoft.EntityFrameworkCore.Relational": "6.0.21",
-          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.21",
-          "pos.Core": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/pos.Infrastructure.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/pos.Infrastructure.dll": {}
-        }
       }
     }
   },
@@ -1934,19 +1918,16 @@
     },
     "pos.Core/1.0.0": {
       "type": "project",
-      "path": "../../../pos.Core/pos.Core.csproj",
-      "msbuildProject": "../../../pos.Core/pos.Core.csproj"
-    },
-    "pos.Infrastructure/1.0.0": {
-      "type": "project",
-      "path": "../../../pos.Infrastructure/pos.Infrastructure.csproj",
-      "msbuildProject": "../../../pos.Infrastructure/pos.Infrastructure.csproj"
+      "path": "../pos.Core/pos.Core.csproj",
+      "msbuildProject": "../pos.Core/pos.Core.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "pos.Core >= 1.0.0",
-      "pos.Infrastructure >= 1.0.0"
+      "Microsoft.EntityFrameworkCore >= 6.0.21",
+      "Microsoft.EntityFrameworkCore.Relational >= 6.0.21",
+      "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.21",
+      "pos.Core >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -1956,11 +1937,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\letuanbao\\RiderProjects\\Pos\\src\\Domains\\Products\\pos.Products\\pos.Products.csproj",
-      "projectName": "pos.Products",
-      "projectPath": "C:\\Users\\letuanbao\\RiderProjects\\Pos\\src\\Domains\\Products\\pos.Products\\pos.Products.csproj",
+      "projectUniqueName": "C:\\Users\\letuanbao\\RiderProjects\\Pos\\src\\pos.Infrastructure\\pos.Infrastructure.csproj",
+      "projectName": "pos.Infrastructure",
+      "projectPath": "C:\\Users\\letuanbao\\RiderProjects\\Pos\\src\\pos.Infrastructure\\pos.Infrastructure.csproj",
       "packagesPath": "C:\\Users\\letuanbao\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\letuanbao\\RiderProjects\\Pos\\src\\Domains\\Products\\pos.Products\\obj\\",
+      "outputPath": "C:\\Users\\letuanbao\\RiderProjects\\Pos\\src\\pos.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -1982,9 +1963,6 @@
           "projectReferences": {
             "C:\\Users\\letuanbao\\RiderProjects\\Pos\\src\\pos.Core\\pos.Core.csproj": {
               "projectPath": "C:\\Users\\letuanbao\\RiderProjects\\Pos\\src\\pos.Core\\pos.Core.csproj"
-            },
-            "C:\\Users\\letuanbao\\RiderProjects\\Pos\\src\\pos.Infrastructure\\pos.Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\letuanbao\\RiderProjects\\Pos\\src\\pos.Infrastructure\\pos.Infrastructure.csproj"
             }
           }
         }
@@ -2001,6 +1979,20 @@
     "frameworks": {
       "net6.0": {
         "targetAlias": "net6.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": {
+            "target": "Package",
+            "version": "[6.0.21, )"
+          },
+          "Microsoft.EntityFrameworkCore.Relational": {
+            "target": "Package",
+            "version": "[6.0.21, )"
+          },
+          "Microsoft.EntityFrameworkCore.SqlServer": {
+            "target": "Package",
+            "version": "[6.0.21, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",
