@@ -2,11 +2,11 @@
 using Microsoft.Extensions.DependencyInjection;
 using pos.Infrastructure.Data;
 
-namespace pos.Infrastructure;
+namespace pos.Core;
 
 public static class ServiceCollectionExtension
 {
-    public static IServiceCollection AddDataServices(this IServiceCollection services, string connectionString,
+    public static IServiceCollection AddCoreServices(this IServiceCollection services, string connectionString,
         bool sensitiveData, bool detailedErrors)
     {
         return services

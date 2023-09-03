@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using pos.Core.Data.Configurations;
 using pos.Core.Entitites;
-using pos.Infrastructure.Data.Configurations;
 
 namespace pos.Infrastructure.Data;
 

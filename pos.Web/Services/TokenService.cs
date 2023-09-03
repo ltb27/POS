@@ -3,7 +3,6 @@ using System.Security.Claims;
 using System.Text;
 using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
-using pos.Core.Settings;
 using pos.Users.Model;
 
 namespace pos.Web.Services;
@@ -27,8 +26,8 @@ public class TokenService : ITokenService
         var claims = new List<Claim>
         {
             new(ClaimTypes.Name, user.FullName),
-            new(ClaimTypes.Role, user.Role),
-            new(ClaimTypes.NameIdentifier, user.UserName)
+            new(ClaimTypes.Role, user?.Role),
+            new(ClaimTypes.NameIdentifier, user.UserName ?? string.Empty)
         };
 
         var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(tokenSettings.Value.SecurityKey));
