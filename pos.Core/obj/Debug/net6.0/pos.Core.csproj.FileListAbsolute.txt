@@ -1,0 +1,13 @@
+C:\Users\letuanbao\RiderProjects\Pos\src\pos.Core\bin\Debug\net6.0\pos.Core.deps.json
+C:\Users\letuanbao\RiderProjects\Pos\src\pos.Core\bin\Debug\net6.0\pos.Core.dll
+C:\Users\letuanbao\RiderProjects\Pos\src\pos.Core\bin\Debug\net6.0\pos.Core.pdb
+C:\Users\letuanbao\RiderProjects\Pos\src\pos.Core\obj\Debug\net6.0\pos.Core.csproj.AssemblyReference.cache
+C:\Users\letuanbao\RiderProjects\Pos\src\pos.Core\obj\Debug\net6.0\pos.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\letuanbao\RiderProjects\Pos\src\pos.Core\obj\Debug\net6.0\pos.Core.AssemblyInfoInputs.cache
+C:\Users\letuanbao\RiderProjects\Pos\src\pos.Core\obj\Debug\net6.0\pos.Core.AssemblyInfo.cs
+C:\Users\letuanbao\RiderProjects\Pos\src\pos.Core\obj\Debug\net6.0\pos.Core.csproj.CoreCompileInputs.cache
+C:\Users\letuanbao\RiderProjects\Pos\src\pos.Core\obj\Debug\net6.0\pos.Core.sourcelink.json
+C:\Users\letuanbao\RiderProjects\Pos\src\pos.Core\obj\Debug\net6.0\pos.Core.dll
+C:\Users\letuanbao\RiderProjects\Pos\src\pos.Core\obj\Debug\net6.0\refint\pos.Core.dll
+C:\Users\letuanbao\RiderProjects\Pos\src\pos.Core\obj\Debug\net6.0\pos.Core.pdb
+C:\Users\letuanbao\RiderProjects\Pos\src\pos.Core\obj\Debug\net6.0\ref\pos.Core.dll

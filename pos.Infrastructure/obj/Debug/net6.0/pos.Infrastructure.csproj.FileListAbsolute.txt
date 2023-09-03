@@ -1,0 +1,16 @@
+C:\Users\letuanbao\RiderProjects\Pos\src\pos.Infrastructure\bin\Debug\net6.0\pos.Infrastructure.deps.json
+C:\Users\letuanbao\RiderProjects\Pos\src\pos.Infrastructure\bin\Debug\net6.0\pos.Infrastructure.dll
+C:\Users\letuanbao\RiderProjects\Pos\src\pos.Infrastructure\bin\Debug\net6.0\pos.Infrastructure.pdb
+C:\Users\letuanbao\RiderProjects\Pos\src\pos.Infrastructure\bin\Debug\net6.0\pos.Core.dll
+C:\Users\letuanbao\RiderProjects\Pos\src\pos.Infrastructure\bin\Debug\net6.0\pos.Core.pdb
+C:\Users\letuanbao\RiderProjects\Pos\src\pos.Infrastructure\obj\Debug\net6.0\pos.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\letuanbao\RiderProjects\Pos\src\pos.Infrastructure\obj\Debug\net6.0\pos.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\letuanbao\RiderProjects\Pos\src\pos.Infrastructure\obj\Debug\net6.0\pos.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\letuanbao\RiderProjects\Pos\src\pos.Infrastructure\obj\Debug\net6.0\pos.Infrastructure.AssemblyInfo.cs
+C:\Users\letuanbao\RiderProjects\Pos\src\pos.Infrastructure\obj\Debug\net6.0\pos.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\letuanbao\RiderProjects\Pos\src\pos.Infrastructure\obj\Debug\net6.0\pos.Infrastructure.sourcelink.json
+C:\Users\letuanbao\RiderProjects\Pos\src\pos.Infrastructure\obj\Debug\net6.0\pos.Infrastructure.csproj.CopyComplete
+C:\Users\letuanbao\RiderProjects\Pos\src\pos.Infrastructure\obj\Debug\net6.0\pos.Infrastructure.dll
+C:\Users\letuanbao\RiderProjects\Pos\src\pos.Infrastructure\obj\Debug\net6.0\refint\pos.Infrastructure.dll
+C:\Users\letuanbao\RiderProjects\Pos\src\pos.Infrastructure\obj\Debug\net6.0\pos.Infrastructure.pdb
+C:\Users\letuanbao\RiderProjects\Pos\src\pos.Infrastructure\obj\Debug\net6.0\ref\pos.Infrastructure.dll

@@ -6,13 +6,15 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v6.0": {
-      "pos.Products/1.0.0": {
+      "pos.Infrastructure/1.0.0": {
         "dependencies": {
-          "pos.Core": "1.0.0",
-          "pos.Infrastructure": "1.0.0"
+          "Microsoft.EntityFrameworkCore": "6.0.21",
+          "Microsoft.EntityFrameworkCore.Relational": "6.0.21",
+          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.21",
+          "pos.Core": "1.0.0"
         },
         "runtime": {
-          "pos.Products.dll": {}
+          "pos.Infrastructure.dll": {}
         }
       },
       "Microsoft.CSharp/4.5.0": {},
@@ -470,22 +472,11 @@
         "runtime": {
           "pos.Core.dll": {}
         }
-      },
-      "pos.Infrastructure/1.0.0": {
-        "dependencies": {
-          "Microsoft.EntityFrameworkCore": "6.0.21",
-          "Microsoft.EntityFrameworkCore.Relational": "6.0.21",
-          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.21",
-          "pos.Core": "1.0.0"
-        },
-        "runtime": {
-          "pos.Infrastructure.dll": {}
-        }
       }
     }
   },
   "libraries": {
-    "pos.Products/1.0.0": {
+    "pos.Infrastructure/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -771,11 +762,6 @@
       "hashPath": "system.windows.extensions.4.7.0.nupkg.sha512"
     },
     "pos.Core/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "pos.Infrastructure/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
