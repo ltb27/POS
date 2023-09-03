@@ -1,6 +1,7 @@
-using pos.Core;
+using pos.Core.Settings;
 using pos.Infrastructure;
 using pos.Products;
+using pos.Users;
 
 var builder = WebApplication.CreateBuilder(args);
 var env = builder.Environment.EnvironmentName;
@@ -10,9 +11,15 @@ builder.Configuration.AddJsonFile("appsettings.json").AddJsonFile($"appsettings.
 var connectionString = builder.Configuration.GetConnectionString("TenantConnection");
 var isDevelopment = builder.Environment.IsDevelopment();
 
+// register services
 builder.Services.AddProductServices()
     .AddDataServices(connectionString, !isDevelopment, !isDevelopment)
+    .AddUserServices()
     .AddControllersWithViews();
+
+// register options
+builder.Services.Configure<TokenSettings>(
+    builder.Configuration.GetSection("TokenSettings"));
 
 var app = builder.Build();
 
