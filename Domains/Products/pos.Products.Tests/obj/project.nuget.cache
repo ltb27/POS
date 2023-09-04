@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "jFywRQQgU+PU04v91JnyJzguD2scmcHWImghxT9he8G9Vlqf21v+FE27r6ZqamDPm2Sl7wo9tNaStGo8eyWcKw==",
+  "dgSpecHash": "/LyNkKQDSdd94q0RYGk+HVISAXC6vnxGF+lZNtu8zg70Bv6A97Xy8/64ba2GP1AMXKYtAiAY8wEV2IZqH8BSSQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\letuanbao\\RiderProjects\\Pos\\src\\Domains\\Products\\pos.Products.Tests\\pos.Products.Tests.csproj",
   "expectedPackageFiles": [
@@ -17,9 +17,9 @@
     "C:\\Users\\letuanbao\\.nuget\\packages\\nunit.analyzers\\3.6.1\\nunit.analyzers.3.6.1.nupkg.sha512",
     "C:\\Users\\letuanbao\\.nuget\\packages\\nunit3testadapter\\4.4.2\\nunit3testadapter.4.4.2.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.reflection.metadata\\1.6.0\\system.reflection.metadata.1.6.0.nupkg.sha512",
-    "C:\\Users\\letuanbao\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.20\\microsoft.netcore.app.ref.6.0.20.nupkg.sha512",
-    "C:\\Users\\letuanbao\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.20\\microsoft.windowsdesktop.app.ref.6.0.20.nupkg.sha512",
-    "C:\\Users\\letuanbao\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.20\\microsoft.aspnetcore.app.ref.6.0.20.nupkg.sha512"
+    "C:\\Users\\letuanbao\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.21\\microsoft.netcore.app.ref.6.0.21.nupkg.sha512",
+    "C:\\Users\\letuanbao\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.21\\microsoft.windowsdesktop.app.ref.6.0.21.nupkg.sha512",
+    "C:\\Users\\letuanbao\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.21\\microsoft.aspnetcore.app.ref.6.0.21.nupkg.sha512"
   ],
   "logs": []
 }

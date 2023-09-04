@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ClegONvS9zsP9DpG4asnf8bnWV2PhdsWC4rKvFDLSHv77Rsirn+Jww5+koS+5AedoLrGUrZ293JwnbPCaxcZKA==",
+  "dgSpecHash": "Bl5kS0baBzlzIYhoU7bBMwlc6nIV8sfa7mXb1YTHotsrZg9/YkRhww6hDcz1yfCxGFkyPOAuKjhavMmyJUAGgA==",
   "success": true,
   "projectFilePath": "C:\\Users\\letuanbao\\RiderProjects\\Pos\\src\\pos.Core\\pos.Core.csproj",
   "expectedPackageFiles": [
@@ -45,9 +45,9 @@
     "C:\\Users\\letuanbao\\.nuget\\packages\\system.security.principal.windows\\4.7.0\\system.security.principal.windows.4.7.0.nupkg.sha512",
     "C:\\Users\\letuanbao\\.nuget\\packages\\system.text.encoding.codepages\\4.7.0\\system.text.encoding.codepages.4.7.0.nupkg.sha512",
     "C:\\Users\\letuanbao\\.nuget\\packages\\system.windows.extensions\\4.7.0\\system.windows.extensions.4.7.0.nupkg.sha512",
-    "C:\\Users\\letuanbao\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.20\\microsoft.netcore.app.ref.6.0.20.nupkg.sha512",
-    "C:\\Users\\letuanbao\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.20\\microsoft.windowsdesktop.app.ref.6.0.20.nupkg.sha512",
-    "C:\\Users\\letuanbao\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.20\\microsoft.aspnetcore.app.ref.6.0.20.nupkg.sha512"
+    "C:\\Users\\letuanbao\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.21\\microsoft.netcore.app.ref.6.0.21.nupkg.sha512",
+    "C:\\Users\\letuanbao\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.21\\microsoft.windowsdesktop.app.ref.6.0.21.nupkg.sha512",
+    "C:\\Users\\letuanbao\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.21\\microsoft.aspnetcore.app.ref.6.0.21.nupkg.sha512"
   ],
   "logs": []
 }
