@@ -1,5 +1,4 @@
-﻿using Microsoft.EntityFrameworkCore.Metadata.Internal;
-
+﻿
 namespace pos.Users.Model;
 
 public class UserToken

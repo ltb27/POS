@@ -26,10 +26,11 @@ public class TokenService : ITokenService
         var claims = new List<Claim>
         {
             new(ClaimTypes.Name, user.FullName),
-            new(ClaimTypes.Role, user?.Role),
+            new(ClaimTypes.Role, user.Role ?? string.Empty),
             new(ClaimTypes.NameIdentifier, user.UserName ?? string.Empty)
         };
-
+        if (expireIn == 0)
+            expireIn = tokenSettings.Value.ExpireIn;
         var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(tokenSettings.Value.SecurityKey));
 
         var token = new JwtSecurityToken(tokenSettings.Value.Issuer, tokenSettings.Value.Audience, claims,

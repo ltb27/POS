@@ -771,19 +771,6 @@
         "runtime": {
           "bin/placeholder/pos.Core.dll": {}
         }
-      },
-      "pos.Infrastructure/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "dependencies": {
-          "pos.Core": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/pos.Infrastructure.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/pos.Infrastructure.dll": {}
-        }
       }
     }
   },
@@ -1973,17 +1960,11 @@
       "type": "project",
       "path": "../../../pos.Core/pos.Core.csproj",
       "msbuildProject": "../../../pos.Core/pos.Core.csproj"
-    },
-    "pos.Infrastructure/1.0.0": {
-      "type": "project",
-      "path": "../../../pos.Infrastructure/pos.Infrastructure.csproj",
-      "msbuildProject": "../../../pos.Infrastructure/pos.Infrastructure.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "pos.Core >= 1.0.0",
-      "pos.Infrastructure >= 1.0.0"
+      "pos.Core >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -2003,12 +1984,14 @@
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\letuanbao\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\letuanbao\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -2017,9 +2000,6 @@
           "projectReferences": {
             "C:\\Users\\letuanbao\\RiderProjects\\Pos\\src\\pos.Core\\pos.Core.csproj": {
               "projectPath": "C:\\Users\\letuanbao\\RiderProjects\\Pos\\src\\pos.Core\\pos.Core.csproj"
-            },
-            "C:\\Users\\letuanbao\\RiderProjects\\Pos\\src\\pos.Infrastructure\\pos.Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\letuanbao\\RiderProjects\\Pos\\src\\pos.Infrastructure\\pos.Infrastructure.csproj"
             }
           }
         }
@@ -2044,20 +2024,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[6.0.21, 6.0.21]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[6.0.21, 6.0.21]"
-          },
-          {
-            "name": "Microsoft.WindowsDesktop.App.Ref",
-            "version": "[6.0.21, 6.0.21]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"

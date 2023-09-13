@@ -23,8 +23,6 @@
         <Content Remove="$(SpaRoot)**"/>
         <None Remove="$(SpaRoot)**"/>
         <None Include="$(SpaRoot)**" Exclude="$(SpaRoot)node_modules\**"/>
-        <Content Remove="ClientApp\**"/>
-        <None Remove="ClientApp\**"/>
     </ItemGroup>
 
     <ItemGroup>

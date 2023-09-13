@@ -1,5 +1,4 @@
 using pos.Core;
-using pos.Infrastructure;
 using pos.Products;
 using pos.Users;
 using pos.Web.Services;

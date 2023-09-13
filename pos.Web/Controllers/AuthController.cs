@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using pos.Users.Model;
 using pos.Users.Services;
 using pos.Web.Services;
@@ -17,18 +18,25 @@ public class AuthController : ApplicationBaseController
         this.tokenService = tokenService;
     }
 
+    [AllowAnonymous]
     [HttpPost("login")]
     public async Task<IActionResult> Login(UserLogin userInfo)
     {
+        if (!ModelState.IsValid)
+            return BadRequest();
+
         var result = await userService.IsValidUserAccountAsync(userInfo);
         if (!result)
             return BadRequest(new
             {
                 statusCode = "invalid_user_account"
             });
+
         // create token
+        var userToken = userService.GetUserTokenInfo(userInfo.UserName ?? string.Empty);
+
         var token = tokenService.GetToken(
-            new UserToken { UserName = userInfo.UserName, Role = "user", FirstName = "John", LastName = "Doe" }, 60);
+            userToken, 60);
 
         return Ok(token);
     }
